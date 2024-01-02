@@ -1,6 +1,6 @@
 # CodeChallenges
 
-This repository contains exercises and solutions from the HackerRank platform, divided into two folders covering Python modules and general problem-solving.
+This repository contains exercises and solutions from the HackerRank platform, divided into folders covering various domains.
 
 ## HackerRank Profile
 
@@ -10,6 +10,8 @@ You can track my progress and find more details about my achievements on HackerR
 
 - **Python:** Contains exercises related to Python on HackerRank.
 - **Problem Solving:** Contains general problem-solving exercises on HackerRank.
+- **Linux Shell:** Contains exercises related to Linux Shell on HackerRank.
+- **SQL:** Contains exercises related to SQL on HackerRank.
 
 ## Useful Links
 
