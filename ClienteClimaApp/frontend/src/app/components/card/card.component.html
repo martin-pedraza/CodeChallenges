@@ -1,0 +1,13 @@
+<div class="card mx-2" style="width: 12rem;">
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card-body">
+      <h5 class="card-title text-center">{{ data.datetime }}</h5>
+      <p class="card-text text-center">{{ data.description }}</p>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">MAX: {{ data.tempmax }}°C</li>
+        <li class="list-group-item">MIN: {{ data.tempmin }}°C</li>
+        <li class="list-group-item">Humidity: {{ data.humidity }}%</li>
+        <li class="list-group-item">Precip.: {{ data.precipprob }}%</li>
+      </ul>
+    </div>
+</div>

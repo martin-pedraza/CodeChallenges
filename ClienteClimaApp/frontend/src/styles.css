@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#light {
+    background: linear-gradient(#0D5C63, #4BDBE7);
+}
+
+#dark {
+    background: linear-gradient(#0D5C63, #3F0D63);
+}

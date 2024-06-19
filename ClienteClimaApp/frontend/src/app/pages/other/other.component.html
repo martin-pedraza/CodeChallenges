@@ -1,0 +1,32 @@
+<div class="container-fluid">
+    <button class="z-1 m-3 btn btn-lg btn-primary position-absolute top-0 start-0" routerLink="/">Back</button>
+    <select 
+      class="form-select form-select-lg z-1 m-3 position-absolute top-0 end-0" 
+      aria-label="Large select example" 
+      style="width: 12rem" 
+      [(ngModel)]="selectedValue" 
+      *ngIf="isToday">
+        <option *ngFor="let option of options" [value]="option">{{ option }} days</option>
+    </select>
+    
+    <div class="row vh-100 d-flex flex-column justify-content-center align-items-center position-relative" id="dark">
+      <p class="fs-1 text-white text-center">{{ city }}</p>
+
+      <div class="spinner-border text-light" style="width: 3rem; height: 3rem;" role="status" *ngIf="loading">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+
+      <div class="col-10 d-flex justify-content-center align-items-center" style="max-width: 100%;" *ngIf="!loading">
+        <div class="overflow-x-auto d-flex" style="max-width: 100%;">
+            <ng-container *ngFor="let i of generateArray(selectedValue)">
+                <app-card 
+                    *ngIf="!error"
+                    [data]="data.days[i]"
+                ></app-card>
+            </ng-container>  
+        </div>
+    </div>
+    
+      <h3 *ngIf="error" class="text-center text-white">There is no records available for that city.</h3>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.vscode
+
+ClienteClimaApp/node_modules
+ClienteClimaApp/backend/node_modules
+ClienteClimaApp/backend/.vscode
+ClienteClimaApp/backend/.env
+ClienteClimaApp/frontend/node_modules
+ClienteClimaApp/frontend/.vscode
+
+GestorNotas/backend/node_modules
+GestorNotas/backend/.vscode
+GestorNotas/backend/.env
+GestorNotas/frontend/node_modules
+GestorNotas/frontend/.vscode

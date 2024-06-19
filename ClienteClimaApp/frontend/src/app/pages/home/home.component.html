@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="row vh-100">
+      <div class="col-md-6 p-0 d-flex flex-column align-items-center justify-content-center" style="height: 100%" id="light">
+        <div class="form-floating mb-3 col-8">
+            <input type="text" class="form-control" id="cityInput" (input)="filterCities($event)">
+            <label for="cityInput">City</label>
+        </div>
+        <div class="form-floating mb-3 col-8">
+            <input type="date" class="form-control" id="dateInput" [(ngModel)]="selectedDate">
+            <label for="dateInput">Date</label>
+        </div>
+      </div>
+      <div class="col-md-6 p-0 d-flex flex-column align-items-center justify-content-center" style="height: 100%" id="dark">
+        <h3 class="text-center text-white" *ngIf="filteredCities.length != 0">Select a city</h3>
+        <div class="list-group col-8 overflow-y-auto" style="max-height: 80%;">
+            <button type="button" class="list-group-item list-group-item-action" *ngFor="let city of filteredCities" (click)="onCitySelect(city)">
+              {{city.name}}, {{city.country}}
+            </button>
+        </div>
+        <h1 class="text-center text-white" *ngIf="filteredCities.length == 0">🌤 Weather</h1>
+      </div>
+    </div>
+</div>

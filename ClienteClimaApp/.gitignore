@@ -1,0 +1,8 @@
+# En la carpeta backend
+./backend/node_modules
+./backend/.vscode
+./backend/.env
+
+# En la carpeta frontend
+./frontend/node_modules
+./frontend/.vscode
