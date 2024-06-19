@@ -1,0 +1,12 @@
+<div class="d-flex">
+    <app-nav></app-nav>
+    
+    <main class="d-flex justify-content-center align-items-center bg-primary-subtle" style="width: 100%;">
+        <h2 *ngIf="notes.length == 0">No hay notas con esta etiqueta</h2>
+        <div class="d-flex flex-wrap overflow-y-auto" style="max-height: 100vh;">
+            <ng-container *ngFor="let note of notes">
+                <app-note [data]="note" (noteChanged)="onNoteChanged()"></app-note>
+            </ng-container>
+        </div>
+    </main>
+</div> 

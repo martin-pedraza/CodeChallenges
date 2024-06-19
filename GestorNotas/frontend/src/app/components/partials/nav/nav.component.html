@@ -1,0 +1,39 @@
+<div class="d-flex flex-column flex-shrink-0 bg-body-tertiary vh-100" style="width: 4.5rem;">
+  <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+    <li class="nav-item" (click)="routerTo('home')">
+      <button class="btn py-3 border-bottom rounded-0 link-body-emphasis">
+        <p>Notas</p>
+          <h3 class="bi bi-book-fill"></h3>
+      </button>
+    </li>
+    <li class="nav-item" (click)="routerTo('archive')">
+      <button  class="btn py-3 border-bottom rounded-0 link-body-emphasis">
+        <p>Archivo</p>   
+        <h3 class="bi bi-archive-fill"></h3>
+      </button>
+    </li>
+    <li class="nav-item dropend">
+      <button class="btn py-3 border-bottom rounded-0 d-flex align-items-center justify-content-center link-body-emphasis" data-bs-toggle="dropdown" aria-expanded="false">
+        <div>
+          <p>Filtros</p>   
+          <h3 class="bi bi-bookmarks-fill"></h3>
+        </div>
+      </button>
+      <ul class="dropdown-menu text-small shadow">
+        <li><h6 class="dropdown-header">Etiquetas</h6></li>
+        <ng-container *ngFor="let tag of tags">
+          <li (click)="routerTo('tag/' + tag.id)"><button class="dropdown-item">{{ tag.nombre }}</button></li>
+        </ng-container>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="dropdown border-top dropend">
+    <div class="d-flex align-items-center justify-content-center p-3 link-body-emphasis  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      <h3 class="bi bi-person-fill"></h3>
+    </div>
+    <ul class="dropdown-menu text-small">
+      <li (click)="logout()"><button class="dropdown-item">Salir</button></li>
+    </ul>
+  </div>
+</div>

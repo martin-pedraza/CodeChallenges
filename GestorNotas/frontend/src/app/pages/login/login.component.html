@@ -1,0 +1,19 @@
+<main class="vw-100 vh-100 d-flex justify-content-center align-items-center bg-primary-subtle">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <h1 class="h3 mb-3 text-center">Por favor ingrese</h1>
+        
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" formControlName="usuario" placeholder="Usuario">
+            <label for="floatingInput">Usuario</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" formControlName="clave" placeholder="Clave">
+            <label for="floatingPassword">Clave</label>
+        </div>
+        <p class="bg-danger-subtle py-2 w-100 text-center rounded fs-6" *ngIf="error">Acceso denegado</p>
+        <button class="btn btn-primary w-100 py-2" type="submit" [disabled]="loading">
+            <span class="spinner-border spinner-border-sm" aria-hidden="true" *ngIf="loading"></span>
+            Acceder
+        </button>
+    </form>
+</main>
