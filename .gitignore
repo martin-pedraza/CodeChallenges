@@ -12,3 +12,7 @@ GestorNotas/backend/.vscode
 GestorNotas/backend/.env
 GestorNotas/frontend/node_modules
 GestorNotas/frontend/.vscode
+
+libreria-api/node_modules
+libreria-api/dist
+libreria-api/.vscode

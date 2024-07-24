@@ -29,7 +29,7 @@ Ejecuta el siguiente comando desde la raíz del proyecto para instalar todas las
 npm run install-all
 ```
 
-## Ejecución de los 
+## Ejecución de los servidores
 
 Para iniciar los servidores localmente, ejecuta el siguiente comando desde la raíz del proyecto:
 
