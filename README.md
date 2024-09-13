@@ -1,10 +1,10 @@
 # CodeChallenges
 
-Este repositorio contiene proyectos y ejercicios de diversas plataformas y desafíos técnicos, organizados en carpetas. Cada carpeta tiene su propio `README.md` con detalles específicos del proyecto o ejercicios contenidos en ella.
+This repository contains projects and exercises from various platforms and technical challenges, organized into folders. Each folder has its own README.md with specific details about the project or exercises it contains.
 
-## Contenido del Repositorio
+## Repository Contents
 
 - [HackerRank](HackerRank/README.md)
-- [Gestor de Notas](GestorNotas/README.md)
+- [Gestor Notas](GestorNotas/README.md)
 - [Cliente Clima App](ClienteClimaApp/README.md)
 - [Libreria API](libreria-api/README.md)
