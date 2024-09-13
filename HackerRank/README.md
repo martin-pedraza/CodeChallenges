@@ -1,19 +1,19 @@
 # HackerRank
 
-Esta carpeta contiene ejercicios y soluciones de la plataforma HackerRank, divididos en carpetas que cubren varios dominios.
+This folder contains exercises and solutions from the HackerRank platform, organized into folders covering various domains.
 
-## Perfil de HackerRank
+## HackerRank Profile
 
-Puedes seguir mi progreso y encontrar más detalles sobre mis logros en HackerRank visitando [mi perfil de HackerRank](https://www.hackerrank.com/profile/pedraza_martind1).
+You can follow my progress and find more details about my achievements on HackerRank by visiting [my HackerRank profile](https://www.hackerrank.com/profile/pedraza_martind1).
 
-## Estructura de la carpeta
+## Folder Structure
 
-- **Python:** Contiene ejercicios relacionados con Python en HackerRank.
-- **Problem Solving:** Contiene ejercicios generales de resolución de problemas en HackerRank.
-- **Linux Shell:** Contiene ejercicios relacionados con Linux Shell en HackerRank.
-- **SQL:** Contiene ejercicios relacionados con SQL en HackerRank.
+- **Python:** Contains Python-related exercises from HackerRank.
+- **Problem Solving:** Contains general problem-solving exercises from HackerRank.
+- **Linux Shell:** Contains Linux Shell-related exercises from HackerRank.
+- **SQL:** Contains SQL-related exercises from HackerRank.
 
-## Enlaces Útiles
+## Useful Links
 
 - [HackerRank](https://www.hackerrank.com/)
 - [Perfil en HackerRank](https://www.hackerrank.com/profile/pedraza_martind1)
