@@ -1,52 +1,51 @@
 # Gestor de Notas
 
-Esta carpeta contiene una aplicación de gestión de notas, desarrollada como parte de un [challenge](./CHALLENGE.md) para Ensolvers. El proyecto está estructurado con un frontend en Angular utilizando Bootstrap y un backend en Express.js con base de datos MS SQL Server.
+This folder contains a note management application developed as part of a [challenge](./CHALLENGE.md) for Ensolvers. The project is structured with an Angular frontend using Bootstrap and an Express.js backend with an MS SQL Server database.
 
-## Requisitos de Ejecución
+## Prerequisites
 
-Asegúrate de tener instalados los siguientes entornos y herramientas antes de ejecutar la aplicación:
+Make sure you have the following environments and tools installed before running the application:
 
-- **Node.js**: versión 14.17.3 o superior
-- **npm**: versión 6.14.13 o superior
-- **Angular CLI**: versión 18.0.4
-- **Express.js**: versión 4.16.1
-- **MS SQL Server**: versión compatible con Sequelize 6.37.3
+- **Node.js**: version 14.17.3 or higher
+- **npm**: version 6.14.13 or higher
+- **Angular CLI**: version 18.0.4
+- **Express.js**: version 4.16.1
+- **MS SQL Server**: version compatible with Sequelize 6.37.3
 
-## Instalación
+## Installation
 
-Para instalar las dependencias y configurar el entorno de desarrollo local, sigue estos pasos:
+To install the dependencies and set up the local development environment, follow these steps:
 
-1. **Clonar el Repositorio**:
+1. **Clone the Repository**:
 
-Utiliza Git para clonar el repositorio desde Github.
+Use Git to clone the repository from GitHub.
 
+2. **Install Dependencies**:
 
-2. **Instalar Dependencias**:
-
-Ejecuta el script `install_dependencies.sh` desde la raíz del proyecto:
+Run the install_dependencies.sh script from the project's root directory:
 
 ```bash
 ./install_dependencies.sh
 ```
 
-Este script instalará las dependencias necesarias tanto para el frontend como para el backend. Asegúrate de que el script tenga permisos de ejecución (`chmod +x install_dependencies.sh`) si es necesario.
+This script will install the necessary dependencies for both the frontend and backend. Make sure the script has execution permissions (chmod +x install_dependencies.sh) if needed.
 
-## Ejecución de los Servidores
+## Running the Servers
 
-Para iniciar los servidores localmente, puedes usar el script `start_servers.sh` que se encuentra en la raíz del proyecto:
+To start the servers locally, you can use the start_servers.sh script located in the project's root directory:
 
 ```bash
 ./start_servers.sh
 ```
 
-Este script iniciará automáticamente los servidores tanto para el frontend como para el backend, usando los comandos `npm start` en cada carpeta respectivamente.
+This script will automatically start the servers for both the frontend and backend, using the npm start command in each folder respectively.
 
-- El servidor backend estará disponible en `http://localhost:3000`.
-- El servidor frontend de Angular estará disponible en `http://localhost:4200`.
+- The backend server will be available at `http://localhost:3000`.
+- The Angular frontend server will be available at `http://localhost:4200`.
 
-## Iniciar Sesión
+## Login
 
-Para iniciar sesión en la aplicación, utiliza las credenciales predeterminadas:
+To log in to the application, use the default credentials:
 
 1. Usuario: admin
    - Clave: 1234
