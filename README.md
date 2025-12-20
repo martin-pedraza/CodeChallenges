@@ -4,7 +4,6 @@ This repository contains projects and exercises from various platforms and techn
 
 ## Repository Contents
 
-- [HackerRank](HackerRank/README.md)
 - [Gestor Notas](GestorNotas/README.md)
 - [Cliente Clima App](ClienteClimaApp/README.md)
 - [Libreria API](libreria-api/README.md)
